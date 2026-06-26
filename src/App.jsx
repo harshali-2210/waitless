@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import SideNav from "./components/SideNav";
-import HomeScreen from "./components/HomeScreen";
-import QueueScreen from "./components/QueueScreen";
-import BookScreen from "./components/BookScreen";
-import SuccessScreen from "./components/SuccessScreen";
-import AlertsScreen from "./components/AlertsScreen";
+import SideNav from "./Components/SideNav";
+import HomeScreen from "./Components/HomeScreen";
+import QueueScreen from "./Components/QueueScreen";
+import BookScreen from "./Components/BookScreen";
+import SuccessScreen from "./Components/SuccessScreen";
+import AlertsScreen from "./Components/AlertsScreen";
 
 export default function App() {
   const [screen, setScreen] = useState("home");
